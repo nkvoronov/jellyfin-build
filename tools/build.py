@@ -70,10 +70,11 @@ class Builder:
                 result = self._checkout_git(project_name, project_tag)
         elif project_git == 'clean':
             os.chdir(dname)
-            self._clean_git(project_name)
+            result = self._clean_git(project_name)
         else:
             os.chdir(dname)
-            self._clean_git(project_name, reset=False)
+            #result = self._clean_git(project_name, reset=False)
+            result = True
         return result
 
     def _build_project( self, project ):
@@ -154,7 +155,7 @@ class Builder:
     def _clean_git( self, pname, reset=True):
         print("Clean project '{name}'".format(name=pname))
         try:
-            os.system('git clean -fx')
+            os.system('git clean -fx -d')
             if reset:
                 os.system('git reset --hard HEAD')
         except Exception as e:
