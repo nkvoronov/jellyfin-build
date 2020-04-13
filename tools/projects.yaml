@@ -1,0 +1,145 @@
+projects:
+  - name: jellyfin-web
+    type: server
+    git: clone
+    url: "github.com/jellyfin/jellyfin-web.git"
+    tag: "v10.5.4"
+
+  - name: jellyfin
+    type: server
+    git: clone
+    url: "github.com/jellyfin/jellyfin.git"
+    tag: "v10.5.4"
+    
+  - name: jellyfin-server-windows
+    type: utils
+    git: clone
+    url: "github.com/jellyfin/jellyfin-server-windows.git"
+    tag: "v2.0"
+
+  - name: jellyfin-plugin-anime
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-anime.git"
+    tag: "v8"
+
+  - name: jellyfin-plugin-trakt
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-trakt.git"
+    tag: "v9"
+
+  - name: jellyfin-plugin-reports
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-reports.git"
+    tag: "v6"
+
+  - name: jellyfin-plugin-emailnotifications
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-emailnotifications.git"
+    tag: "v4"
+
+  - name: jellyfin-plugin-kodisyncqueue
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-kodisyncqueue.git"
+    tag: "v4"
+
+  - name: jellyfin-plugin-iptv
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-iptv.git"
+    tag: "none"
+
+  - name: jellyfin-plugin-tvheadend
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-tvheadend.git"
+    tag: "v5"
+
+  - name: jellyfin-plugin-autoorganize
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-autoorganize.git"
+    tag: "v6"
+
+  - name: jellyfin-plugin-tmdbboxsets
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-tmdbboxsets.git"
+    tag: "v5"
+
+  - name: jellyfin-plugin-playbackreporting
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-playbackreporting.git"
+    tag: "v4"
+
+  - name: jellyfin-plugin-ldapauth
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-ldapauth.git"
+    tag: "v6"
+
+  - name: jellyfin-plugin-opensubtitles
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-opensubtitles.git"
+    tag: "v8"
+
+  - name: jellyfin-plugin-gotify
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-gotify.git"
+    tag: "v6"
+
+  - name: jellyfin-plugin-serverwmc
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-serverwmc.git"
+    tag: "v3"
+
+  - name: jellyfin-plugin-nextpvr
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-nextpvr.git"
+    tag: "v3"
+
+  - name: jellyfin-plugin-pushbullet
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-pushbullet.git"
+    tag: "v3"
+
+  - name: jellyfin-plugin-slack
+    type: plugins
+    git: clone
+    url: "github.com/fruhnow/jellyfin-plugin-slack.git"
+    tag: "v5"
+
+  - name: jellyfin-plugin-bookshelf
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-bookshelf.git"
+    tag: "v3"
+
+  - name: jellyfin-plugin-isomounter
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-isomounter.git"
+    tag: "none"
+
+  - name: jellyfin-plugin-fanart
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-fanart.git"
+    tag: "v4"
+
+  - name: jellyfin-plugin-pushover
+    type: plugins
+    git: clone
+    url: "github.com/jellyfin/jellyfin-plugin-pushover.git"
+    tag: "v3"
+
